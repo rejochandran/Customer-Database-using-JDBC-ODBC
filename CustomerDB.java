@@ -50,6 +50,19 @@ public class CustomerDB {
 				price = inp1.nextInt();
 				System.out.print("Area :");
 				area = inp2.nextLine();
+				boolean test=true;
+				do{
+					if(area.length()>10)
+				{ 
+					System.out.println("Enter shorter Area Name");
+					area=inp2.nextLine();
+				}
+				if(area.length()<10)
+				{
+					test=false;
+				}
+
+				}while(test);
 				System.out.print("Phone :");
 				phone = inp2.nextInt();
 				sql="INSERT INTO cust(name,grossprice,area,phone,creditpoints) VALUES('"+name+"',"+price+",'"+area+"',"+phone+",0)";
