@@ -13,7 +13,7 @@ public class CustomerDB {
 
 	
 	public static void main(String[] argv) throws Exception {		
-		String url = "jdbc:odbc:custo";
+		String url = "jdbc:odbc:custo"; //custo is the database name created in this example
 		Connection connection = DriverManager.getConnection(url, "", "");
 		Statement stmt = connection.createStatement();
 		Scanner inp = new Scanner(System.in);		
@@ -29,7 +29,7 @@ public class CustomerDB {
 			e.printStackTrace();
 			return;
 		}
-		//==============GUI
+		/** Console UI */
 		while(flag == 1)
 		{
 			System.out.println("\n============== Customer Database ==============\n\n");
