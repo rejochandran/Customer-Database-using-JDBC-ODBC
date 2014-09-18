@@ -1,4 +1,4 @@
 Customer-Database-using-JDBC-ODBC
 =================================
 
-Java Console App
+This java console application is designed to demonstrate the working of JDBC-ODBC database connection.
