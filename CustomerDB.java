@@ -10,7 +10,7 @@ import javax.swing.*;
 
 
 public class CustomerDB {
-
+//test
 	
 	public static void main(String[] argv) throws Exception {		
 		String url = "jdbc:odbc:custo";
